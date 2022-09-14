@@ -18,7 +18,7 @@ public class LinkedList<T> {
     }
     //Uc3
     public void addAtStart(T data) {
-        // head -> 56 30 70 -> null
+        // head -> 30 40 50 -> null
         // 100 null
         Node<T> newNode = new Node<>();
         newNode.data = data;
