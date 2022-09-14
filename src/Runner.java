@@ -9,9 +9,17 @@ public class Runner {
         integerLinkedList.addAtStart(56);
 
         integerLinkedList.print();
-       integerLinkedList.addAt(0,56);
+       integerLinkedList.addAt(1,56);
+        integerLinkedList.print();
+        integerLinkedList.deleteAtStart();
+        integerLinkedList.print();
+        integerLinkedList.addAt(2,40);
+        integerLinkedList.print();
+        integerLinkedList.deleteAt(2);
         integerLinkedList.print();
 
     }
+
+
     }
 
